@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+    border: none;
+  }
+  
+  body {
+    font-family: 'courier';
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15%;
+  }
+
+  .main-image {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+  }  
+
+  button {
+    width: 20%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  header {
+    margin: 10%;
+  }
+
+  .score-tracker {
+    list-style: none;
+  }
+
+

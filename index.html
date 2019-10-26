@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Office Quiz</title>
+    <meta name = "description" type = "A quiz app that tests knowledge of the tv show The Office"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+    <main role = "main">
+        <header role = "banner" class = "container">  
+            <img class = "logo" src = "/images/banner.jpg" alt = "the office text banner">
+            <ul class = "score-tracker">
+                <li> question count: 0 </li>
+                <li> score count: 0 </li>
+            </ul>
+        </header>
+        <section role = "region">
+            <section class= "container">
+                <img class= "main-image" src= "https://img.nbc.com/sites/nbcunbc/files/files/images/2016/1/19/MDot-TheOffice-640x360-MP.jpg" alt= "the office logo">
+                <h1 class = "main-question">  How well do you know the office?  </h1>
+                <button type = "submit" value = "submit" >Let's find out!</button>
+            </section>
+            <!-- sections below here i know will get deleted and used in js-->
+            <section class ="container">
+                <form>  
+                <fieldset>  
+                    <section class = "container js-container1">
+                        <legend class = "main-question">    
+                            Who does Michael accidentally hit with his car in the parking lot?
+                        </legend>
+                        <br>
+                        <label class = "question">
+                            <input type = "radio" class = "radio">  
+                            <span> Meredith  </span>
+                        </label>
+                        <br>
+                        <label class = "question"> 
+                            <input type = "radio" class = "radio">   
+                            <span> Phyllis</span>
+                        </label>
+                        <br>
+                        <label class = "question">
+                            <input type = "radio" class = "radio">  
+                            <span> Pam </span>
+                        </label>
+                        <br>
+                        <label class = "question">    
+                            <input type = "radio" class = "radio">   
+                            <span> Kelly </span>
+                        </label>
+                        <br>
+                        <button type = "submit"> Submit </button>
+                    </section>
+                </fieldset>
+                </form>
+            </section>
+            <section class ="container js-container2">
+                <h3> Correct! </h3>
+                <img class = "main-image" src = "https://i.imgflip.com/1adnuu.jpg" alt = "hit someone with my car">
+                <p> Answer: </p>
+                <p> Meredith! </p>
+                <button type = "submit"> Next </button>
+            </section>
+            <section class = "container js-container3">
+                <img class = "main-image" src = "https://static.tvtropes.org/pmwiki/pub/images/5e27fb84_c2ea_4bbe_9cdc_8221e9a00ca1.png" alt = "prison Mike">
+                <p> Final Score: #/6 </p>
+                <p>You're a pro!</p>
+                <button type = "submit">Play Again!</button> 
+            </section>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src = "The_Office_Quiz_wireframe.js"></script>
+
+</body>
+</html>
